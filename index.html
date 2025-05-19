@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paleta de Colores</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #131515;
+      color: #fffafb;
+    }
+    h1 {
+      margin-bottom: 1.5rem;
+    }
+    .color-section {
+      margin-bottom: 2rem;
+    }
+    .color-title {
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .swatches {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 0.5rem;
+    }
+    .swatch {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      border-radius: 4px;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎨 Paleta de Colores</h1>
+
+  <!-- Primary – Persian Green -->
+  <div class="color-section">
+    <div class="color-title">Primary – Persian Green</div>
+    <div class="swatches">
+      <div class="swatch" style="background:#f2fbf9">50</div>
+      <div class="swatch" style="background:#d5f2eb">100</div>
+      <div class="swatch" style="background:#abe4d6">200</div>
+      <div class="swatch" style="background:#78d0be">300</div>
+      <div class="swatch" style="background:#4db4a2">400</div>
+      <div class="swatch" style="background:#339989">500</div>
+      <div class="swatch" style="background:#277a6f">600</div>
+      <div class="swatch" style="background:#22635b">700</div>
+      <div class="swatch" style="background:#204f4a">800</div>
+      <div class="swatch" style="background:#1e433e">900</div>
+      <div class="swatch" style="background:#0c2725; color: #fffafb;">950</div>
+    </div>
+  </div>
+
+  <!-- Secondary – Tiffany Blue -->
+  <div class="color-section">
+    <div class="color-title">Secondary – Tiffany Blue</div>
+    <div class="swatches">
+      <div class="swatch" style="background:#f1fcf9">50</div>
+      <div class="swatch" style="background:#d0f7ef">100</div>
+      <div class="swatch" style="background:#a1eede">200</div>
+      <div class="swatch" style="background:#7de2d1">300</div>
+      <div class="swatch" style="background:#3cc5b2">400</div>
+      <div class="swatch" style="background:#22aa99">500</div>
+      <div class="swatch" style="background:#19887d">600</div>
+      <div class="swatch" style="background:#186d65">700</div>
+      <div class="swatch" style="background:#185752">800</div>
+      <div class="swatch" style="background:#184945">900</div>
+      <div class="swatch" style="background:#082b2a; color: #fffafb;">950</div>
+    </div>
+  </div>
+
+  <!-- Gris – Jet -->
+  <div class="color-section">
+    <div class="color-title">Gris – Jet</div>
+    <div class="swatches">
+      <div class="swatch" style="background:#f5f6f6; color:#000;">50</div>
+      <div class="swatch" style="background:#e5e8e7; color:#000;">100</div>
+      <div class="swatch" style="background:#ced3d2; color:#000;">200</div>
+      <div class="swatch" style="background:#abb5b3; color:#000;">300</div>
+      <div class="swatch" style="background:#828e8c; color:#000;">400</div>
+      <div class="swatch" style="background:#667472; color:#fffafb;">500</div>
+      <div class="swatch" style="background:#586261; color:#fffafb;">600</div>
+      <div class="swatch" style="background:#4b5353; color:#fffafb;">700</div>
+      <div class="swatch" style="background:#424847; color:#fffafb;">800</div>
+      <div class="swatch" style="background:#3a3f3f; color:#fffafb;">900</div>
+      <div class="swatch" style="background:#131515; color:#fffafb;">950</div>
+    </div>
+  </div>
+
+  <!-- Blanco cálido – Snow -->
+  <div class="color-section">
+    <div class="color-title">Blanco cálido – Snow</div>
+    <div class="swatches">
+      <div class="swatch" style="background:#FFFAFB; color:#000;">Snow</div>
+    </div>
+  </div>
+
+  <!-- Status Colors -->
+  <div class="color-section">
+    <div class="color-title">🟢 Status: Success</div>
+    <div class="swatches">
+      <div class="swatch" style="background:#e6f9f0; color:#000;">Light</div>
+      <div class="swatch" style="background:#2ecc71; color:#fffafb;">Base</div>
+      <div class="swatch" style="background:#27ae60; color:#fffafb;">Dark</div>
+    </div>
+  </div>
+
+  <div class="color-section">
+    <div class="color-title">🟠 Status: Warning</div>
+    <div class="swatches">
+      <div class="swatch" style="background:#fff8e1; color:#000;">Light</div>
+      <div class="swatch" style="background:#f39c12; color:#fffafb;">Base</div>
+      <div class="swatch" style="background:#d68910; color:#fffafb;">Dark</div>
+    </div>
+  </div>
+
+  <div class="color-section">
+    <div class="color-title">🔴 Status: Error</div>
+    <div class="swatches">
+      <div class="swatch" style="background:#fdecea; color:#000;">Light</div>
+      <div class="swatch" style="background:#e74c3c; color:#fffafb;">Base</div>
+      <div class="swatch" style="background:#c0392b; color:#fffafb;">Dark</div>
+    </div>
+  </div>
+
+  <div class="color-section">
+    <div class="color-title">🔵 Status: Info</div>
+    <div class="swatches">
+      <div class="swatch" style="background:#e8f4fd; color:#000;">Light</div>
+      <div class="swatch" style="background:#3498db; color:#fffafb;">Base</div>
+      <div class="swatch" style="background:#2c80b4; color:#fffafb;">Dark</div>
+    </div>
+  </div>
+
+</body>
+</html>
