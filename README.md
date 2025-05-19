@@ -68,3 +68,6 @@ export const colors = {
 
 Fredoka
 Poppins
+
+
+Link: https://www.figma.com/design/cLZPeVlcmAoKJkaYEg7S1M/First-Step?node-id=0-1&t=8OR8yXiSdJb4yikU-1
