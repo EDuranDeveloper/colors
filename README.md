@@ -64,3 +64,7 @@ export const colors = {
     },
   },
 };
+
+
+Fredoka
+Poppins
